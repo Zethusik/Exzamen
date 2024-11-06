@@ -1,0 +1,426 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* border: 1px solid red; */
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Задний фон страницы */
+
+.background_main_page{
+
+    height: 908px;
+    background: url(../images/start-screen-gradient-background.svg) no-repeat center;
+}
+
+.text-image-wrapper{
+    display: flex;
+    height: 780px;
+    justify-content: space-around;
+    padding-top: 56px;
+
+}
+
+.text_near_puppy{
+    padding-top: 163px;
+    width: 460px;
+
+}
+
+.background_puppy{
+    width: 698px;
+    height: 728px;
+}
+
+/* Текст возле собаки */
+
+.title{
+    color: #FFFFFF;
+    font-family: Georgia;
+    width: 310px;
+    font-size: 44px;
+}
+
+.description{
+    color: #CDCDCD;
+    font-size: 15px;
+    margin-top: 42px;
+    max-width: 460px;
+    max-height: 72px;
+}
+
+.make_friend{
+    text-decoration: none;
+    margin-top: 42px;
+    border: none;
+    font-family: georgia;
+    font-size: 17px;
+    width: 207px;
+    height: 52px;
+    color: #292929;
+    background: #F1CDB3;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+/* Верхняя панель */
+
+header{
+    padding-top: 60px;
+
+}
+.header-wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.menu{
+    list-style: none;
+    display: flex;
+    gap: 50px;
+    a{
+        text-decoration: none;
+        color: #CDCDCD;
+        font-weight: 700px;
+        font-size: 15px;
+        letter-spacing: -.47px;
+        &.active{
+            color: #FAFAFA;
+            padding-bottom: 10px;
+            border-bottom: 3px solid #F1CDB3;
+        }
+    }
+
+}
+
+.about_shelter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.background_shelter{
+    background: #FFFFFF;
+    display: flex;
+    align-items: center;
+    width: 1280px;
+    height: 588px;
+}
+.information_about_shelter{
+    display: flex;
+
+    align-items: center;
+}
+.text_about_shelter{
+    margin-left: 120px;
+    width: 430px;
+    height: 380px;
+}
+.title_shelter{
+    color: #545454;
+    font-size: 35px;
+    margin-top: 14px;
+    font-weight: 400;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    width: 300px;
+    height: 90px;
+}
+.description_shelter{
+    color: #4C4C4C;
+    padding-top: 35px;
+    width: 430px;
+    font-family: arial;
+    font-weight: 400;
+    font-size: 15px;
+}
+
+.cardes_animals{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.background_animals{
+    background: #F6F6F6;
+    display: flex;
+    align-items: center;
+    width: 1280px;
+    height: 877px;
+}
+
+.wrapper_cardes{
+    margin-top: 80px;
+    width: 1200px;
+    height: 697px;
+}
+
+.title_our_friends{
+    display: flex;
+    margin-left: 400px;
+    font-family: Georgia;
+    width: 400px;
+    font-size: 35px;
+
+}
+
+.cardes{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+
+    margin-top: 60px;
+    gap: 18px;
+}
+
+.our_friends{
+    text-align: center;
+    color: #545454;
+}
+
+.card{
+    background: #FAFAFA;
+    width: 270px;
+    height: 435px;
+    border-radius: 10px;
+    text-align: center;
+}
+.title_card{
+    color: #545454;
+    padding-top: 30px;
+    font-family: Georgia;
+    font-size: 20px;
+}
+
+.images_cardes{
+    width: 268px;
+}
+
+.Learn{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    width: 187px;
+    font-weight: 400;
+    font-size: 17px;
+    height: 52px;
+    border-radius: 50px;
+    border: 3px solid #F1CDB3;
+    background: #FFF;
+    margin-top: 30px;
+    cursor: pointer;
+}
+.Learn:hover{
+    background: #F1CDB3;
+}
+
+.button_get_know{
+    display: flex;
+    justify-content: center;
+}
+
+.get_know{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    width: 261px;
+    font-weight: 400;
+    font-size: 17px;
+    height: 52px;
+    border-radius: 50px;
+    background: #F1CDB3;
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+.how_you_can_help{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.background_help{
+    background: #FFFFFF;
+    display: flex;
+    align-items: center;
+    width: 1280px;
+    height: 611px;
+}
+.logotips{
+    display: flex;
+    justify-content: center;
+    width: 1026px;
+
+}
+
+.card_logotips{
+    margin: 59px 50px;
+}
+
+.title_span{
+    display: flex;
+    max-width: 308px;
+}
+
+.title_help{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 90px;
+    margin-bottom: 60px;
+}
+
+.span_help{
+    text-align: center;
+    font-size: 35px;
+    font-weight: 400;
+    font-family: Georgia;
+}
+
+.bank_card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.background_bank{
+    background: #F6F6F6;
+    display: flex;
+    align-items: center;
+    width: 1280px;
+    height: 462px;
+}
+
+.bank_wrapper{
+    display: flex;
+    max-width: 915px;
+    height: 282px;
+    justify-content: center;
+    align-items: center;
+}
+
+.images_puppy_bank{
+    margin-right: 30px;
+}
+
+.puppy_donation{
+    width: 525px;
+    height: 281px;
+}
+
+.id_bank{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    text-decoration: none;
+    background: #F1CDB3;
+    width: 349px;
+    height: 43px;
+    border-radius: 10px;
+}
+
+.title_donate{
+    width: 270px;
+}
+
+.donation_text{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 35px;
+    font-weight: 400;
+    color: #545454;
+}
+
+.name_bank_donation{
+    margin-top: 20px;
+}
+
+.bank_card_id{
+    margin-top: 20px;
+}
+
+.name_bank{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 400px;
+    font-size: 15px;
+    color: #545454;
+}
+
+.id_card{
+    text-align: center;
+    width: 274px;
+    margin-right: 15px;
+    margin-left: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 400px;
+    color: #545454;
+    font-size: 23px;
+}
+
+.description_donation{
+    margin-top: 20px;
+}
+
+.donation_desc{
+    font-family: Arial;
+    font-weight: 400;
+    font-size: 12px;
+    color: #B2B2B2;
+}
+.end_page{
+    height: 350px;
+    background: url(../images/start-screen-gradient-background.svg) no-repeat center; 
+}
+
+.end_page_wrapper{
+    display: flex;
+
+}
+
+.card_for_questions{
+    display: flex;
+    align-items: center;
+}
+
+.card_end_page{
+    width: 302px;
+    height: 234px;
+    margin-right: 145px;
+}
+
+.title_ques{
+    width: 280px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 400;
+    font-size: 35px;
+    color: #ffffff;
+}
+
+.puppy_end_page{
+    width: 300px;
+    height: 310px;
+}
+.image_end_puppy{
+    margin-top: 40px;
+}
+
+.justify{
+    display: flex;
+    margin-top: 33px;
+    align-items: center;
+}
+
+.email_end-page{
+    margin-right: 20px;
+}
+.email_end_page{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: #F1CDB3;
+
+}
